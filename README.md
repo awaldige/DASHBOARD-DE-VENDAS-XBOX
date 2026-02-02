@@ -1,53 +1,94 @@
-🎮 Dashboard de Vendas - Xbox & Game Pass
-
+🎮 Dashboard de Vendas — Xbox & Game Pass
 📌 Descrição
 
-Este projeto tem como objetivo criar um dashboard de vendas para planos Xbox e Game Pass, incluindo Xbox Core, Standard e Ultimate, além de assinaturas como EA Play, Season Pass e Game Pass Minecraft. O foco é organizar e visualizar os dados de vendas, permitindo uma análise clara do desempenho e da adesão aos planos, com opções de renovação automática ou manual.
+Este projeto apresenta um dashboard de vendas focado nos planos Xbox e Game Pass, incluindo:
+
+Xbox Game Pass Core
+
+Xbox Game Pass Standard
+
+Xbox Game Pass Ultimate
+
+EA Play
+
+Season Pass
+
+Game Pass Minecraft
+
+O objetivo é organizar e visualizar dados de vendas, permitindo analisar o desempenho dos planos e o comportamento dos usuários, incluindo opções de renovação automática e manual.
+
+O dashboard facilita a tomada de decisões através da visualização clara de métricas e tendências.
 
 🚀 Tecnologias Utilizadas
 
-Excel (com Gráficos Dinâmicos e Tabelas Dinâmicas)
+📊 Microsoft Excel
 
-Power Query (para manipulação de dados)
+📈 Tabelas Dinâmicas e Gráficos Dinâmicos
 
-VBA (para automação, se necessário)
+🔄 Power Query para tratamento de dados
 
-CSV / Excel (como fonte de dados)
+⚙️ VBA (opcional para automações)
+
+📄 Arquivos CSV / Excel como fonte de dados
 
 📈 Funcionalidades
 
-Importação e tratamento de dados de vendas de planos Xbox e Game Pass
-
-Análise da adesão a planos com renovação automática ou manual
-
-Criação de gráficos dinâmicos interativos
-
-Identificação de tendências de consumo
-
-Dashboard intuitivo para acompanhamento de KPIs
+✅ Importação e tratamento de dados de vendas
+✅ Análise de assinaturas com renovação automática ou manual
+✅ Gráficos dinâmicos interativos
+✅ Visualização de KPIs de vendas
+✅ Identificação de tendências de consumo
+✅ Dashboard organizado para análise rápida
 
 📂 Estrutura do Projeto
+dashboard-vendas-xbox/
+│
+├── data/        # Conjunto de dados utilizados
+├── reports/     # Relatórios exportados
+├── src/         # Arquivos Excel do dashboard
+└── README.md
 
-📂 dashboard-vendas-xbox
-│-- 📁 data (conjunto de dados)
-│-- 📁 reports (relatórios gerados)
-│-- 📁 src (arquivos Excel com dashboard)
-│-- README.md (este arquivo)
+# 📊 Planilha de Dados
 
-🎯 Como Usar
+Baixe ou visualize a planilha utilizada no projeto:
 
-Clone este repositório:
+📥## 📊 Dashboard
+
+Clique abaixo para abrir o arquivo do dashboard:
+
+📥 [Download do Dashboard em Excel](projetodashboard.xlsx)
+            
+
+📸 Prévia
+
+![IMG_1369](https://github.com/user-attachments/assets/217b920d-f0e1-4d13-807f-11f3720710ff)
+![IMG_1361](https://github.com/user-attachments/assets/6b415df7-5da1-4059-96e9-c63765a5c5f7)
+![IMG_1366](https://github.com/user-attachments/assets/82a6206e-ad72-4646-ad72-5e07ad5ea166)
+
+
+🎯 Como Utilizar
+
+Clone o repositório:
 
 git clone https://github.com/seu-usuario/dashboard-vendas-xbox.git
 
-Acesse o diretório do projeto e abra o arquivo Excel correspondente ao dashboard.
 
-Atualize os dados caso necessário e utilize os Gráficos Dinâmicos para análise.
+Acesse a pasta do projeto.
 
-📌 Contribuição
+Abra o arquivo Excel localizado em src/.
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+Atualize os dados caso necessário e utilize os gráficos e filtros para análise.
 
-📜 Licença
+📌 Contribuições
 
-Este projeto está licenciado sob a MIT License – veja o arquivo LICENSE para mais detalhes.
+Contribuições são bem-vindas! Você pode:
+
+Abrir issues para sugerir melhorias
+
+Enviar pull requests
+
+Reportar problemas ou sugestões
+
+👨‍💻 Autor
+
+Desenvolvido por André Waldige Projeto criado para estudo e portfólio 
